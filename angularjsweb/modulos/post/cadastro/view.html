@@ -1,0 +1,11 @@
+<form>
+  <fieldset class="form-group">
+    <label for="nome">Titulo</label>
+    <input type="text" class="form-control" id="titulo" ng-model="post.titulo">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="login">Conteúdo</label>
+    <textarea type="text" class="form-control" id="conteudo" ng-model="post.conteudo"></textarea>
+  </fieldset>
+  <button type="button" class="bnt btn-lg btn-primary" ng-click="registrar(post)">Registar Post</button>
+</form>

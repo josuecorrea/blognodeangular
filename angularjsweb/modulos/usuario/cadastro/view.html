@@ -1,0 +1,16 @@
+<form>
+  <fieldset class="form-group">
+    <label for="nome">Nome</label>
+    <input type="text" class="form-control" id="nome" ng-model="usuario.nome">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="login">Login</label>
+    <input type="text" class="form-control" id="login" ng-model="usuario.login">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="password">Senha</label>
+    <input type="text" class="form-control" id="senha" ng-model="usuario.senha">
+  </fieldset>
+
+  <button type="button" class="bnt btn-lg btn-primary" ng-click="cadastrar(usuario)">Cadastrar</button>
+</form>
